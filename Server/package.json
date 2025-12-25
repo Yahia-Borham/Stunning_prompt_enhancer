@@ -1,0 +1,19 @@
+{
+  "name": "stunning_prompt_enchancer",
+  "version": "1.0.0",
+  "description": "hero section for a landing page that helps users turn a rough website idea into a better, clearer prompt they can use to build a website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Yahia Borham",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "openai": "^6.15.0"
+  }
+}
